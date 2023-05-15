@@ -11,8 +11,8 @@ ID_Dipartimento (int)
 tipo(varchar(50))
 
 # Corsi
-ID_Corso (integer)
-Nome (varchar(50))
+ID_Corso (int)
+Nome_Corso (varchar(50))
 ID_CorsoLaurea (int)
 
 # Insegnanti
@@ -35,6 +35,7 @@ Matricola (varchar (20))
 # Esami
 ID_Esame (int)
 ID_Corso (int)
+tipo(varchar(50))
 
 #voti
 ID_Voto
